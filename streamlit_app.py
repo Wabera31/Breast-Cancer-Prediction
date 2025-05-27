@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load trained model
-model = joblib.load("models/Random_Forest.pkl")
+model = joblib.load("Random_Forest.pkl")
 
 # Title
 st.title("Breast Cancer Prediction App")
